@@ -1,7 +1,12 @@
 import express from 'express'
 import { getExchangeRate } from './index.js'
+import cors from 'cors'
 
 const app = express()
+app.use(cors({
+    origin: 'http://localhost:3000'
+}))
+
 const port = 3005
 
 app.get('/rates', async (req, res) => {
