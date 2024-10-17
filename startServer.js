@@ -4,7 +4,7 @@ import cors from 'cors'
 
 const app = express()
 app.use(cors({
-    origin: 'https://6710b8410d5f9d00095780f7--mlisak-alexbot.netlify.app/'
+    origin: '*'
 }))
 
 const port = 3005
