@@ -1,4 +1,5 @@
 import express from 'express'
+import { getExchangeRate } from './index.js'
 
 const app = express()
 const port = 3005
