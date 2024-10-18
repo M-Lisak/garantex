@@ -32,4 +32,4 @@ export const getExchangeRate = async (value) => {
 }
 
 // const val = await getExchangeRate(50000)
-console.log('getExchangeRate', await getExchangeRate(100000))
+// console.log('getExchangeRate', await getExchangeRate(100000))
